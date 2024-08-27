@@ -3,7 +3,9 @@ UTN FRLP Cátedra de Desarrollo de Software
 
 ## Contenido ✏️
 - [Introduccion al desarrollo de software](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/introduccion_desarrollo_software)
+- [SPA & MPA](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/mpa_spa)
 - [Docker](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/docker)
+
 
 ## Notas 📋
 
