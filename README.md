@@ -6,6 +6,8 @@ UTN FRLP Cátedra de Desarrollo de Software
 - [SPA & MPA](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/mpa_spa)
 - [Docker](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/docker)
 - [User Story](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/user_story)
+- [TypeScript](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/typescript)
+
 
 
 ## Notas 📋
