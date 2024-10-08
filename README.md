@@ -7,6 +7,8 @@ UTN FRLP Cátedra de Desarrollo de Software
 - [Docker](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/docker)
 - [User Story](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/user_story)
 - [TypeScript](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/typescript)
+- [POO](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/poo)
+- [Java](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/java)
 
 
 
