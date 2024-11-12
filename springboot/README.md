@@ -1,5 +1,6 @@
 # Apps Java modernas y rápidas con Spring Boot
-TypeScript es un lenguaje de programación de código abierto desarrollado por Microsoft, que extiende JavaScript al agregar tipos estáticos opcionales. Fue diseñado para facilitar el desarrollo de aplicaciones JavaScript a gran escala, permitiendo a los desarrolladores detectar errores y mejorar la mantenibilidad del código. 
+Java Spring Boot es una herramienta de código abierto que permite crear aplicaciones web y microservicios con Java. Spring Boot es una extensión del marco de trabajo Spring, que permite desarrollar aplicaciones de diferentes tipos, como aplicaciones web, de escritorio, de línea de comando, microservicios, entre otras.
+Java Spring Boot facilita el desarrollo de aplicaciones gracias a sus características, como la configuración automática, que reduce el tiempo y el esfuerzo de desarrollo. Además, la configuración inicial acelera el desarrollo y reduce la posibilidad de errores humanos
 
 ## Índice de contenidos
 * [Spring Framework](#que-es-spring-framework)
