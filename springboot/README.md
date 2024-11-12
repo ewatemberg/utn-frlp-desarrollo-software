@@ -3,7 +3,7 @@ TypeScript es un lenguaje de programación de código abierto desarrollado por M
 
 ## Índice de contenidos
 * [Spring Framework](#que-es-spring-framework)
-* [Spring Boot](#spring-boot-vs-spring)
+* [Spring Boot vs Spring](#spring-boot-vs-spring)
 
 ## ¿Qué es Spring Framework?
 Spring Framework es un marco de desarrollo en Java que facilita la creación de aplicaciones de software, especialmente las basadas en Java empresarial. Se centra en ayudar a los desarrolladores a construir aplicaciones de manera modular y escalable mediante el uso de patrones de diseño, inyección de dependencias y un conjunto de bibliotecas de soporte. Sus principales características incluyen:
@@ -57,62 +57,90 @@ La principal diferencia entre Spring y Spring Boot radica en que Spring Boot es 
 
 
 
+![SPRING BOOT](../doc/img/springboot-overview.jpg)
+
+![SPRING BOOT](../doc/img/spring-vs-springboot.jpg)
 
 
+## Spring Boot Initializr
 
+Es una herramienta en línea que facilita la creación de proyectos de Spring Boot de manera rápida y sencilla. Ofrece una interfaz para configurar un proyecto básico de Spring Boot con las dependencias, configuraciones, y estructura mínima necesaria, permitiendo que los desarrolladores comiencen a trabajar en su aplicación sin preocuparse por la configuración inicial.
 
+### Características principales de Spring Boot Initializr
+1. **Selección del Proyecto**:
 
+- Permite elegir entre Maven y Gradle como herramientas de construcción, que son las más usadas para manejar dependencias y construir proyectos en Java.
 
+2. **Versión de Spring Boot**:
 
+- Puedes elegir la versión de Spring Boot que deseas usar en tu proyecto, lo que es útil si necesitas una versión específica compatible con tu entorno o con otras dependencias.
 
+3. **Configuración de Dependencias**:
 
-### Code Conventions
+- Ofrece una amplia gama de dependencias o "starters" que puedes seleccionar según el tipo de aplicación que deseas desarrollar. Ejemplos incluyen:
+    - `spring-boot-starter-web`: Para aplicaciones web y REST.
+    - `spring-boot-starter-data-jpa`: Para trabajar con bases de datos y JPA.
+    - `spring-boot-starter-security`: Para agregar autenticación y autorización.
+    - `spring-boot-starter-thymeleaf`: Para usar Thymeleaf como motor de plantillas en aplicaciones web.
 
-Las **Java Code Conventions** son un conjunto de normas y prácticas recomendadas que los desarrolladores de Java deben seguir al escribir código. Estas convenciones fueron establecidas originalmente por Sun Microsystems y posteriormente por Oracle, con el objetivo de hacer que el código sea más legible, mantenible y consistente entre diferentes equipos de desarrollo.
+4. **Opciones de Proyecto Básicas**:
 
-Seguir estas convenciones facilita la colaboración en proyectos grandes y el mantenimiento a largo plazo del código, ya que las reglas ayudan a garantizar que el código escrito por diferentes desarrolladores tenga un estilo coherente.
+- Puedes especificar información básica del proyecto, como el nombre del proyecto, grupo, artefacto, nombre del paquete base, descripción, y versión de Java.
 
+5. **Generación del Proyecto**:
 
-Principales [convenciones](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html) de código en Java:
-- Nombres de clases:
-    - Las clases deben tener nombres en CamelCase (cada palabra comienza con mayúscula).
-    - Ejemplo: `CustomerService`, `EmployeeDetails`.
-- Nombres de métodos:
-    - Los métodos deben comenzar con una letra minúscula y usar camelCase.
-    - Ejemplo: `calculateTotal()`, `findCustomerById()`.
-- Nombres de variables:
-    - Las variables también deben utilizar camelCase.
-    - Ejemplo: `customerName`, `totalAmount`.
-- Nombres de constantes:
-    - Las constantes se escriben en mayúsculas completas separadas por guiones bajos (_).
-    - Ejemplo: `MAX_HEIGHT`, `DEFAULT_TIMEOUT`.
-- Nombres de variables:
-    - Las variables también deben utilizar camelCase.
-    - Ejemplo: `customerName`, `totalAmount`.
-- Nombres de constantes:
-    - Las constantes se escriben en mayúsculas completas separadas por guiones bajos (_).
-    - Ejemplo: `MAX_HEIGHT`, `DEFAULT_TIMEOUT`.
-- Indentación:
-    - Se recomienda usar 4 espacios por nivel de indentación en lugar de un tabulador.
-    - Facilita la legibilidad del código en editores diferentes.
-- Longitud de las líneas:
-    - Se sugiere que las líneas de código no superen los 80 caracteres de largo. Si es necesario, se debe dividir la línea para mejorar la legibilidad.
+- Una vez seleccionadas las opciones y dependencias, Spring Boot Initializr genera el proyecto y permite descargarlo como un archivo comprimido (.zip). Este archivo contiene una estructura de proyecto básica, con todos los archivos de configuración y dependencias seleccionadas, listo para importar en un IDE y empezar a trabajar.
 
-## Build Tools
-Son herramientas que ayudan a automatizar tareas (ciclo de vida de un desarrollo).
+6. **Integración con IDEs**:
 
-### Maven
-Maven es una herramienta de gestión y construcción de proyectos, principalmente usada en proyectos Java. Facilita la automatización de tareas como la compilación del código, la ejecución de pruebas, la creación de paquetes (como archivos JAR o WAR) y la gestión de dependencias de terceros. Su principal propósito es simplificar y estandarizar el ciclo de vida del desarrollo de software, especialmente en proyectos que involucran muchas bibliotecas externas.
+- Muchos IDEs, como IntelliJ IDEA, Eclipse, y Spring Tool Suite (STS), ofrecen integración directa con Spring Boot Initializr, lo que permite crear un proyecto de Spring Boot sin tener que ir al sitio web.
 
-#### Caracteristicas
-- Gestión de dependencias: Maven permite especificar todas las dependencias externas que un proyecto necesita (bibliotecas, frameworks, etc.) en un archivo llamado pom.xml. Maven se encarga de descargarlas automáticamente desde repositorios remotos y de administrarlas.
+### ¿Como se usa?
 
-- Ciclo de vida de construcción: Maven define un conjunto de fases que cubren las etapas de construcción de un proyecto. Estas incluyen fases como la compilación (compile), las pruebas (test), el empaquetado (package), la verificación (verify) y la instalación (install).
+1. Accede a Spring Initializr: 
+Abre tu navegador y ve a https://start.spring.io.
 
-- Estandarización: Maven usa una estructura de proyecto estándar y un archivo de configuración XML (pom.xml). Esto permite que cualquier desarrollador pueda entender y trabajar en un proyecto Maven fácilmente, independientemente de cómo esté estructurado.
+2. Configura los detalles del proyecto:
+En la página de Spring Initializr, completa los campos básicos de configuración:
 
-- Plugins: Maven es extensible mediante plugins, que ofrecen una variedad de funcionalidades para tareas específicas, como generar documentación, ejecutar pruebas unitarias, o compilar archivos de recursos adicionales.
+- **Project**: Elige **Maven** o **Gradle** según el tipo de proyecto que prefieras.
+- **Language**: Selecciona **Java**, **Kotlin**, o **Groovy** (la mayoría de los proyectos suelen usar Java).
+- **Spring Boot version**: Selecciona la versión de Spring Boot que necesitas (es recomendable elegir la versión estable más reciente).
 
-[¿Que es maven y cómo funciona?](https://www.arquitecturajava.com/que-es-maven/)
+- **Opciones adicionales**
+    - **Project Metadata**:
+        - **Group**: Generalmente el nombre de tu organización o dominio invertido (ej. com.ejemplo).
+        - **Artifact**: El nombre de tu proyecto o aplicación (ej. mi-app).
+        - **Name**: El nombre de la aplicación.
+        - **Description**: Una breve descripción del proyecto.
+        - **Package name**: El nombre del paquete base para tu código (generalmente es group + artifact, como com.ejemplo.miapp).
+        - **Packaging**: Selecciona JAR o WAR, dependiendo de si necesitas un archivo ejecutable (JAR) o uno que pueda desplegarse en un servidor de aplicaciones como Tomcat (WAR).
+        - **Java version**: Selecciona la versión de Java con la que trabajarás.
 
-![Goals](/doc/img/maven_goals.jpg)
+3. Añade dependencias:
+En la sección Dependencies, puedes buscar e incluir dependencias necesarias para tu proyecto. Algunos ejemplos comunes son:
+
+- `Spring Web`: Para crear aplicaciones web y APIs REST.
+- `Spring Data JPA`: Para interactuar con bases de datos usando JPA (con Hibernate).
+- `Spring Security`: Para agregar seguridad a tu aplicación.
+- `Spring Boot DevTools`: Para facilitar el desarrollo con características como recarga automática.
+
+Haz clic en cada dependencia para agregarla al proyecto.
+
+4. Genera y descarga el proyecto:
+Una vez configurado todo, haz clic en el botón Generate. Esto descargará un archivo .zip con tu proyecto Spring Boot.
+
+5. Extrae y abre el proyecto en tu IDE:
+Descomprime el archivo .zip en una carpeta de tu elección.
+Abre tu IDE (como IntelliJ IDEA, Eclipse o Visual Studio Code).
+Importa el proyecto como un proyecto Maven o Gradle (según la opción que seleccionaste en Spring Initializr).
+
+6. Ejecuta el proyecto:
+Dentro del IDE, navega hasta la clase principal, que estará en el paquete raíz y tendrá una anotación `@SpringBootApplication`. Para ejecutar el proyecto, haz clic derecho sobre la clase y selecciona **Run**, o usa el comando:
+
+```bash
+./mvnw spring-boot:run   # Para Maven
+./gradlew bootRun         # Para Gradle
+```
+
+Tu aplicación Spring Boot ahora está en ejecución y puedes acceder a ella en http://localhost:8080 (o el puerto que hayas configurado).

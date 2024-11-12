@@ -1,4 +1,4 @@
-# Hello World Maven
+# Hello World Spring Boot
 
 El comando `mvn clean` se usa en Maven, una herramienta de gestión y construcción de proyectos en Java. Ejecutar `mvn clean` hace que Maven elimine todos los archivos generados por compilaciones anteriores en el directorio `target`, donde Maven guarda los resultados de las compilaciones, artefactos y otros archivos temporales.
 ```bash

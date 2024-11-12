@@ -9,7 +9,7 @@ UTN FRLP Cátedra de Desarrollo de Software
 - [TypeScript](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/typescript)
 - [POO](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/poo)
 - [Java](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/java)
-
+- [Apps Modernas con Spring Boot](https://github.com/ewatemberg/utn-frlp-desarrollo-software/tree/main/springboot)
 
 
 ## Notas 📋

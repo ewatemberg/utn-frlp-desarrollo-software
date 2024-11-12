@@ -57,7 +57,16 @@ Principales [convenciones](https://www.oracle.com/java/technologies/javase/codec
 Son herramientas que ayudan a automatizar tareas (ciclo de vida de un desarrollo).
 
 ### Maven
-Maven es una herramienta open-source, que se creó en 2001 con el objetivo de simplificar los procesos de build (compilar y generar ejecutables a partir del código fuente).
+Maven es una herramienta de gestión y construcción de proyectos, principalmente usada en proyectos Java. Facilita la automatización de tareas como la compilación del código, la ejecución de pruebas, la creación de paquetes (como archivos JAR o WAR) y la gestión de dependencias de terceros. Su principal propósito es simplificar y estandarizar el ciclo de vida del desarrollo de software, especialmente en proyectos que involucran muchas bibliotecas externas.
+
+#### Caracteristicas
+- Gestión de dependencias: Maven permite especificar todas las dependencias externas que un proyecto necesita (bibliotecas, frameworks, etc.) en un archivo llamado pom.xml. Maven se encarga de descargarlas automáticamente desde repositorios remotos y de administrarlas.
+
+- Ciclo de vida de construcción: Maven define un conjunto de fases que cubren las etapas de construcción de un proyecto. Estas incluyen fases como la compilación (compile), las pruebas (test), el empaquetado (package), la verificación (verify) y la instalación (install).
+
+- Estandarización: Maven usa una estructura de proyecto estándar y un archivo de configuración XML (pom.xml). Esto permite que cualquier desarrollador pueda entender y trabajar en un proyecto Maven fácilmente, independientemente de cómo esté estructurado.
+
+- Plugins: Maven es extensible mediante plugins, que ofrecen una variedad de funcionalidades para tareas específicas, como generar documentación, ejecutar pruebas unitarias, o compilar archivos de recursos adicionales.
 
 [¿Que es maven y cómo funciona?](https://www.arquitecturajava.com/que-es-maven/)
 
