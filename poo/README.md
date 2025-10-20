@@ -5,14 +5,15 @@ La Programación Orientada a Objetos (POO) es un paradigma de programación que 
 * [Principales Conceptos](#principales-conceptos)
 * [Ejemplos](#ejemplo-básico-de-poo-en-java)
 
-## Principales Conceptos
+## Principios Fundamentales de la POO
 
-- **Clase**: Una clase es una plantilla o modelo que define las propiedades y comportamientos que los objetos de ese tipo pueden tener. En Java, una clase define atributos (variables de instancia) y métodos (funciones) que describen las acciones que un objeto puede realizar.
-- **Objeto**: Un objeto es una instancia de una clase. Cuando creas un objeto a partir de una clase, estás creando una entidad con su propio estado y comportamiento basado en el modelo definido por la clase
-- **Encapsulamiento**: El encapsulamiento es el concepto de ocultar los detalles internos de un objeto y exponer solo lo necesario a través de métodos públicos. Esto se logra utilizando modificadores de acceso como `private`, `protected`, y `public`.
-- **Herencia**: La herencia es el mecanismo mediante el cual una clase puede derivar de otra clase, heredando sus atributos y métodos. Esto permite reutilizar código y crear jerarquías de clases.
-- **Polimorfismo**: El polimorfismo permite que una clase hija pueda sobrescribir métodos de una clase padre y que diferentes objetos puedan ser tratados como instancias de su clase padre, pero con comportamientos diferentes.
-- **Abstracción**: La abstracción consiste en ocultar los detalles complejos de la implementación y exponer solo los aspectos relevantes del objeto. Las clases abstractas e interfaces ayudan a implementar la abstracción en Java.
+1. **Clases y Objetos**:
+   - **Clase**: Una clase es una plantilla o modelo que define las propiedades y comportamientos que los objetos de ese tipo pueden tener. En Java, una clase define atributos (variables de instancia) y métodos (funciones) que describen las acciones que un objeto puede realizar.
+   - **Objeto**: Un objeto es una instancia de una clase. Cuando creas un objeto a partir de una clase, estás creando una entidad con su propio estado y comportamiento basado en el modelo definido por la clase
+2. **Encapsulamiento**: El encapsulamiento es el concepto de ocultar los detalles internos de un objeto y exponer solo lo necesario a través de métodos públicos. Esto se logra utilizando modificadores de acceso como `private`, `protected`, y `public`.
+3. **Abstracción**: La abstracción consiste en ocultar los detalles complejos de la implementación y exponer solo los aspectos relevantes del objeto. Las clases abstractas e interfaces ayudan a implementar la abstracción en Java.
+4. **Herencia**: La herencia es el mecanismo mediante el cual una clase puede derivar de otra clase, heredando sus atributos y métodos. Esto permite reutilizar código y crear jerarquías de clases.
+5. **Polimorfismo**: El polimorfismo permite que una clase hija pueda sobrescribir métodos de una clase padre y que diferentes objetos puedan ser tratados como instancias de su clase padre, pero con comportamientos diferentes.
 
 ## Ejemplo básico de POO en Java
 A continuación se muestra cómo se utilizan estos conceptos en un ejemplo simple de una clase Coche.
